@@ -1,11 +1,4 @@
 @echo off
-echo.
-echo  ================================
-echo   LLM to SLM Partitioner - Run
-echo  ================================
-echo.
-echo  Starting application...
-echo.
+title LLM -^> SLM Partitioner
 python main.py %*
-echo.
 pause
